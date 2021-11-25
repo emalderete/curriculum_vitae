@@ -1,0 +1,16 @@
+.basics {
+    background-color: rgb(61, 61, 61);
+}
+
+.main {
+    background-color: rgb(233, 232, 232);
+}
+
+.foto {
+    border-radius: 20rem;
+    width: 60%;
+}
+
+.titulo {
+    height: 20rem;
+}
