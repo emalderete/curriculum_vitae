@@ -1,5 +1,6 @@
 .basics {
     background-color: rgb(61, 61, 61);
+    height: 75rem;
 }
 
 .main {
@@ -13,4 +14,8 @@
 
 .titulo {
     height: 20rem;
+}
+
+.progressBarControl {
+    width: 20rem;
 }
