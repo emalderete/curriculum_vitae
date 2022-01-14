@@ -16,6 +16,7 @@
 .foto {
     border-radius: 20rem;
     width: 60%;
+    margin-left: 20%;
 }
 
 .titulo {
@@ -34,10 +35,33 @@
     font-size: 1.8rem;
 }
 
+.github-color {
+    color: #962ebe;
+}
+
 .html-icon {
     color: rgb(245, 88, 26);
 }
 
 .api {
     width: 2.2rem;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(252, 172, 172);
+}
+
+.links:hover {
+    text-decoration: none;
+    color: rgb(197, 82, 82);
+}
+
+#copy-button {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+#popup {
+    position: absolute;
 }
