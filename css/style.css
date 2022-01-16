@@ -23,6 +23,10 @@
     height: 20rem;
 }
 
+.nombre {
+    font-size: 350%;
+}
+
 .progressBarControl {
     width: 20rem;
 }
@@ -97,4 +101,9 @@
     }
 }
 
-@media (max-width: 1006px) {}
+@media (max-width: 1006px) {
+    .basics {}
+    .main {
+        width: 10%;
+    }
+}
