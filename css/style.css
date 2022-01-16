@@ -71,7 +71,7 @@
 }
 
 #english-stars {
-    margin-left: 4%;
+    margin-left: 0.82rem;
 }
 
 @media (max-width: 1478px) and (min-width: 1260px) {
@@ -92,7 +92,7 @@
     }
 }
 
-@media (max-width: 1130px) and (min-width: 1006px) {
+@media (max-width: 1130px) and (min-width: 992px) {
     .titulo-info {
         font-size: 84%;
     }
@@ -101,8 +101,10 @@
     }
 }
 
-@media (max-width: 1006px) {
-    .basics {}
+@media (max-width: 992px) {
+    .basics {
+        height: 100%;
+    }
     .main {
         width: 10%;
     }
