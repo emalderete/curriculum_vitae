@@ -69,3 +69,32 @@
 #english-stars {
     margin-left: 4%;
 }
+
+@media (max-width: 1478px) and (min-width: 1260px) {
+    .titulo-info {
+        font-size: 105%;
+    }
+    .textos {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 1260px) and (min-width: 1130px) {
+    .textos {
+        font-size: 81%;
+    }
+    .titulo-info {
+        font-size: 93%;
+    }
+}
+
+@media (max-width: 1130px) and (min-width: 1006px) {
+    .titulo-info {
+        font-size: 84%;
+    }
+    .textos {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 1006px) {}
