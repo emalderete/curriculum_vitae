@@ -23,8 +23,12 @@
     height: 20rem;
 }
 
-.nombre {
+.nombre-main {
     font-size: 350%;
+}
+
+.nombre-info {
+    display: none;
 }
 
 .progressBarControl {
@@ -92,7 +96,7 @@
     }
 }
 
-@media (max-width: 1130px) and (min-width: 992px) {
+@media (max-width: 1130px) and (min-width: 991px) {
     .titulo-info {
         font-size: 84%;
     }
@@ -101,11 +105,42 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.5px) and (min-width: 750px) {
     .basics {
         height: 100%;
     }
-    .main {
-        width: 10%;
+    .basics-child {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .nombre-main {
+        display: none;
+    }
+    .nombre-info {
+        display: block;
+        color: white;
+        font-size: 260%;
+    }
+    .foto {
+        width: 30%;
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 750px) {
+    .basics {
+        height: 100%;
+    }
+    .foto {
+        width: 30%;
+        margin-left: 35%;
+    }
+    .nombre-main {
+        display: none;
+    }
+    .nombre-info {
+        display: block;
+        color: white;
+        font-size: 260%;
     }
 }
