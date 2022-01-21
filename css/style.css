@@ -1,11 +1,22 @@
 .basics {
     background-color: rgb(61, 61, 61);
     height: 77rem;
+    width: 40%;
+}
+
+.basics-child {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.basics-button {
+    display: none;
 }
 
 .main {
     background: rgb(236, 236, 236);
     background: linear-gradient(133deg, rgba(236, 236, 236, 1) 5%, rgba(168, 168, 168, 1) 8%, rgba(197, 197, 197, 1) 11%, rgba(207, 207, 207, 1) 12%, rgba(217, 217, 217, 1) 13%, rgba(255, 255, 255, 1) 33%, rgba(232, 228, 228, 1) 38%, rgba(181, 180, 180, 1) 42%, rgba(245, 245, 245, 1) 45%, rgba(173, 173, 173, 1) 48%, rgba(247, 247, 247, 1) 56%, rgba(222, 222, 222, 1) 62%, rgba(168, 168, 168, 1) 65%, rgba(207, 207, 207, 1) 69%, rgba(230, 230, 230, 1) 72%, rgba(255, 255, 255, 1) 86%, rgba(158, 158, 158, 1) 100%);
+    width: 100%;
 }
 
 .compact-container {
@@ -108,10 +119,22 @@
 @media (max-width: 991.5px) and (min-width: 750px) {
     .basics {
         height: 100%;
+        position: absolute;
+        display: none;
+        z-index: 1;
     }
     .basics-child {
         margin-left: 6rem;
         margin-right: 6rem;
+    }
+    .basics-button {
+        display: block;
+        padding-left: 2.5rem;
+        padding-top: 2rem;
+        font-size: 2.2rem;
+        position: absolute fixed;
+        border: none;
+        background-color: rgba(255, 255, 240, 0);
     }
     .nombre-main {
         display: none;
@@ -124,6 +147,9 @@
     .foto {
         width: 30%;
         margin-left: 35%;
+    }
+    #sub-titulo {
+        font-weight: bold;
     }
 }
 
