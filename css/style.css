@@ -20,15 +20,6 @@
     color: azure;
 }
 
-.darkOverlay {
-    width: 100%;
-    height: 78.6rem;
-    background-color: rgba(27, 27, 27, 0.884);
-    transition: 650ms;
-    position: absolute;
-    z-index: 2;
-}
-
 .main {
     background: rgb(236, 236, 236);
     background: linear-gradient(133deg, rgba(236, 236, 236, 1) 5%, rgba(168, 168, 168, 1) 8%, rgba(197, 197, 197, 1) 11%, rgba(207, 207, 207, 1) 12%, rgba(217, 217, 217, 1) 13%, rgba(255, 255, 255, 1) 33%, rgba(232, 228, 228, 1) 38%, rgba(181, 180, 180, 1) 42%, rgba(245, 245, 245, 1) 45%, rgba(173, 173, 173, 1) 48%, rgba(247, 247, 247, 1) 56%, rgba(222, 222, 222, 1) 62%, rgba(168, 168, 168, 1) 65%, rgba(207, 207, 207, 1) 69%, rgba(230, 230, 230, 1) 72%, rgba(255, 255, 255, 1) 86%, rgba(158, 158, 158, 1) 100%);
@@ -37,8 +28,13 @@
     z-index: 1;
 }
 
+.main-child {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .compact-container {
-    height: 53rem;
+    height: 45rem;
     overflow-y: scroll;
 }
 
@@ -123,6 +119,15 @@
     .textos {
         font-size: 75%;
     }
+    .titulos-main {
+        font-size: 120%;
+    }
+    .subtitulos-main {
+        font-size: 95%;
+    }
+    .textos-main {
+        font-size: 85%;
+    }
 }
 
 @media (max-width: 991.5px) {
@@ -132,6 +137,14 @@
         position: absolute;
         z-index: 3;
         transition: 650ms;
+    }
+    .darkOverlay {
+        width: 100%;
+        height: 78.6rem;
+        background-color: rgba(27, 27, 27, 0.884);
+        transition: 650ms;
+        position: absolute;
+        z-index: 2;
     }
     .basics-child {
         margin-left: 5%;
@@ -155,9 +168,6 @@
         background-color: rgba(240, 255, 255, 0);
         color: azure;
     }
-    .basics-button-close:active {
-        display: block;
-    }
     .nombre-info {
         display: block;
         color: white;
@@ -169,5 +179,74 @@
     }
     #sub-titulo {
         font-weight: bold;
+    }
+}
+
+@media (max-width: 821px) {
+    .nombre-info {
+        font-size: 190%;
+    }
+    .foto {
+        width: 45%;
+        margin-left: 28%;
+    }
+    .titulo-info {
+        font-size: 88%;
+    }
+    .textos {
+        font-size: 75%;
+    }
+    .main-child {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .titulos-main {
+        font-size: 105%;
+    }
+    .subtitulos-main {
+        font-size: 89%;
+    }
+    .textos-main {
+        font-size: 80%;
+    }
+    .nombre-main {
+        font-size: 270%;
+    }
+    #sub-titulo {
+        font-size: 150%;
+    }
+    .botones-nav {
+        font-size: 70%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 607.5px) {
+    .main-child {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 400px) {
+    .basics-child {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .main-child {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 576px) {
+    .progressBarControl {
+        width: 12rem;
+    }
+    .nombre-main {
+        font-size: 200%;
+    }
+    #sub-titulo {
+        font-size: 115%;
     }
 }
