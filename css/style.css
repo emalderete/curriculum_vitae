@@ -219,23 +219,15 @@
         font-size: 70%;
         font-weight: bold;
     }
+    .lista-conocimientos {
+        width: 95%;
+    }
 }
 
 @media (max-width: 607.5px) {
     .main-child {
         margin-left: 3%;
         margin-right: 3%;
-    }
-}
-
-@media (max-width: 400px) {
-    .basics-child {
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    .main-child {
-        margin-left: 0%;
-        margin-right: 0%;
     }
 }
 
@@ -248,5 +240,16 @@
     }
     #sub-titulo {
         font-size: 115%;
+    }
+}
+
+@media (max-width: 400px) {
+    .basics-child {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .main-child {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
