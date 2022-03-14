@@ -73,6 +73,11 @@ body {
     font-size: 1.8rem;
 }
 
+.fa-suitcase {
+    font-size: 1.4rem;
+    color: #b3b3b3;
+}
+
 .github-color {
     color: #962ebe;
 }
