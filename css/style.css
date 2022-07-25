@@ -11,6 +11,11 @@ body {
     width: 40%;
 }
 
+.listDecorationNone {
+    list-style: none;
+    margin-left: -15px;
+}
+
 .basics-child {
     padding-left: 7%;
     padding-right: 7%;
